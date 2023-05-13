@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="spam.css">
+    <title>INV.skeleton</title>
+    <meta charset="utf-8">
+    <meta name="description" content="this site will help you to know if image is spam or ham">
+    <meta name="keywords" content="image , image spam , spam , ham , hound , INV.skeleton">
+    <meta name="auther" content="Mohammad alhabrat , Malek hatem , Yazan albaik">
+    <meta name="viewport" content="width=device-widthe, initial-scale=1.0">
+</head>
+<body>
+    <h1><i>INV.skeleton</i></h1>
+    <img src="tfskpz6via0u0jp9.jpg" class="fullscreen-image">
+    <hr>
+    <section id="sec1">test your image</section>
+    <form action="test.php">
+        <fieldset>
+            <legend>lets hunting</legend>
+            <div>
+                <label for="image"> the image</label>
+                <input id="image" type="file" name="image" required accept="image/jpeg">
+            </div>
+            <div>
+                <label for="source">Where did you get the image from?</label>
+                <select name="source" id="source">
+                    <option value="Em">Email</option>
+                    <option value="FB">Facebook</option>
+                    <option value="TW">Twitter</option>
+                    <option value="IG">Instagram</option>
+                    <option value="SC">Snapchat</option>
+                    <option value="WA">WhatsApp</option>
+                    <option value="OTH">Other</option>
+                </select>
+            </div>
+            <div>
+                <input type="submit" value="test">
+                <input type="reset" value="clear">
+            </div>
+        </fieldset>
+    </form>
+    <hr>
+    <section id="sec2">how we work</section>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, nostrum sapiente architecto laborum inventore repudiandae hic possimus error! Ullam, magni.</p>
+    <hr>
+    <section id="sec3">about us</section>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet harum earum, tempora itaque corrupti quis culpa delectus maiores dicta aliquam?</p>
+    <hr>
+    <section id="sec4">contact us</section>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit necessitatibus voluptatibus odit, veritatis nesciunt dicta incidunt quo sunt ab harum!</p>
+    <hr>
+    <abbr title="spam hound">spam hound</abbr>
+    <hr>
+    <address>Lorem ipsum dolor sit amet.</address>
+</body>
+</html>
+ChatGPT
+Sure! Here's the updated code that accepts JPEG, PNG, and BMP files:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="spam.css">
+    <title>INV.skeleton</title>
+    <meta charset="utf-8">
+    <meta name="description" content="this site will help you to know if image is spam or ham">
+    <meta name="keywords" content="image , image spam , spam , ham , hound , INV.skeleton">
+    <meta name="auther" content="Mohammad alhabrat , Malek hatem , Yazan albaik">
+    <meta name="viewport" content="width=device-widthe, initial-scale=1.0">
+</head>
+<body>
+    <h1><i>INV.skeleton</i></h1>
+    <img src="tfskpz6via0u0jp9.jpg" class="fullscreen-image">
+    <hr>
+    <section id="sec1">test your image</section>
+    <form action="test.php" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>lets hunting</legend>
+            <div>
+                <label for="image"> the image</label>
+                <input id="image" type="file" name="image" required accept="image/jpeg,image/png,image/bmp">
+            </div>
+            <div>
+                <label for="source">Where did you get the image from?</label>
+                <select name="source" id="source">
+                    <option value="Em">Email</option>
+                    <option value="FB">Facebook</option>
+                    <option value="TW">Twitter</option>
+                    <option value="IG">Instagram</option>
+                    <option value="SC">Snapchat</option>
+                    <option value="WA">WhatsApp</option>
+                    <option value="OTH">Other</option>
+                </select>
+            </div>
+            <div>
+                <input type="submit" value="test">
+                <input type="reset" value="clear">
+            </div>
+        </fieldset>
+    </form>
+    <hr>
+    <section id="sec2">how we work</section>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, nostrum sapiente architecto laborum inventore repudiandae hic possimus error! Ullam, magni.</p>
+    <hr>
+    <section id="sec3">about us</section>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet harum earum, tempora itaque corrupti quis culpa delectus maiores dicta aliquam?</p>
+    <hr>
+    <section id="sec4">contact us</section>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit necessitatibus voluptatibus odit, veritatis nesciunt dicta incidunt quo sunt ab harum!</p>
+    <hr>
+    <abbr title="spam hound">spam hound</abbr>
+    <hr>
+    <address>Lorem ipsum dolor sit amet.</address>
+</body>
+</html>
